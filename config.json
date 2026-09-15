@@ -1,0 +1,57 @@
+{
+  "brand": "РИИФ",
+  "cabinets": [
+    {
+      "key": "ooo",
+      "title": "ООО РИИФ",
+      "env": "WB_TOKEN_OOO"
+    },
+    {
+      "key": "ip",
+      "title": "ИП Герасимчук И.А.",
+      "env": "WB_TOKEN_IP"
+    },
+    {
+      "key": "cab3",
+      "title": "ИП Субанов А.А.",
+      "env": "WB_TOKEN_CAB3"
+    }
+  ],
+  "window_days": 29,
+  "maturity_days": 12,
+  "mature_window_days": 14,
+  "min_mature_orders": 150,
+  "ads_mode": "fbs_share",
+  "rates_fallback": "cabinet",
+  "anonymize": false,
+  "override": {
+    "ooo": {
+      "buyout": null,
+      "payout_share": null,
+      "logistics_per_order": null,
+      "handling_per_order": null,
+      "penalty_per_order": null
+    },
+    "ip": {
+      "buyout": null,
+      "payout_share": null,
+      "logistics_per_order": null,
+      "handling_per_order": null,
+      "penalty_per_order": null
+    },
+    "cab3": {
+      "buyout": null,
+      "payout_share": null,
+      "logistics_per_order": null,
+      "handling_per_order": null,
+      "penalty_per_order": null
+    }
+  },
+  "speed_basis": "scan",
+  "returns_match": "по МП",
+  "pvz_storage": {
+    "free_days": 3,
+    "price_per_day": 10,
+    "dispose_day": 8
+  }
+}
